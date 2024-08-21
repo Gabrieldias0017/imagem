@@ -1,0 +1,164 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+}
+/* tamanho da mesa
+serão 10 cartas por página*/
+
+.board{
+  width:1100px;
+  height: 620px;
+  background-image:  linear-gradient(green,rgb(96, 229, 96));
+}
+.carta1{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:20px;
+    left:20px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+.carta2{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:20px;
+    left:225px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+.carta3{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:20px;
+    left:430px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+.carta4{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:20px;
+    left:635px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta5{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top: 310px;
+    left:20px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta6{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:310px;
+    left:235px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta7{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:310px;
+    left:445px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta8{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:310px;
+    left:655px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta9{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:20px;
+    left:855px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+.carta10{
+    width:200px;
+    height:280.8px;
+    position:absolute;
+    top:310px;
+    left:865px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nome{
+    position: relative;
+    top:14px;
+    left:22px;
+}
+.imagem1{
+    position: relative;
+    top:00px;
+    left:20px;
+    width:162px;
+    height:120px;
+    background-image: url(/modelos\ para\ cartas\ .png);
+}
+.custo{
+    position: relative;
+    top:-3px;
+    left:152px;
+ }
