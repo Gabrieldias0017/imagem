@@ -1,4 +1,3 @@
-
 /* Reset básico */
 * {
     margin: 0;
@@ -7,158 +6,73 @@
     border: 0;
     outline: 0;
 }
-/* tamanho da mesa
-serão 10 cartas por página*/
 
-.board{
-  width:1100px;
-  height: 620px;
-  background-image:  linear-gradient(green,rgb(96, 229, 96));
+/* Tamanho da mesa - 10 cartas por página */
+.board {
+    width: 1100px;
+    height: 620px;
+    background-image: linear-gradient(green, rgb(96, 229, 96));
 }
-.carta1{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:20px;
-    left:20px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-.carta2{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:20px;
-    left:225px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-.carta3{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:20px;
-    left:430px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-.carta4{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:20px;
-    left:635px;
+
+/* Estilo para as cartas */
+.carta1, .carta2, .carta3, .carta4, .carta5, .carta6, .carta7, .carta8, .carta9, .carta10 {
+    width: 200px;
+    height: 280.8px;
+    position: absolute;
     background-image: url(/modelos\ para\ cartas\ .png);
 }
 
-.carta5{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top: 310px;
-    left:20px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
+.carta1 { top: 20px; left: 20px; }
+.carta2 { top: 20px; left: 225px; }
+.carta3 { top: 20px; left: 430px; }
+.carta4 { top: 20px; left: 635px; }
+.carta5 { top: 310px; left: 20px; }
+.carta6 { top: 310px; left: 235px; }
+.carta7 { top: 310px; left: 445px; }
+.carta8 { top: 310px; left: 655px; }
+.carta9 { top: 20px; left: 855px; }
+.carta10 { top: 310px; left: 865px; }
 
-.carta6{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:310px;
-    left:235px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-
-.carta7{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:310px;
-    left:445px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-
-.carta8{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:310px;
-    left:655px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-
-.carta9{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:20px;
-    left:855px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-
-.carta10{
-    width:200px;
-    height:280.8px;
-    position:absolute;
-    top:310px;
-    left:865px;
-    background-image: url(/modelos\ para\ cartas\ .png);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nome{
+/* Estilo para o nome */
+.nome {
     position: relative;
-    top:14px;
-    left:22px;
+    top: 14px;
+    left: 22px;
 }
-.imagem1{
+
+/* Estilo para a imagem */
+.imagem1 {
     position: relative;
-    top:00px;
-    left:20px;
-    width:162px;
-    height:120px;
+    top: 0px;
+    left: 20px;
+    width: 162px;
+    height: 120px;
     background-image: url(/modelos\ para\ cartas\ .png);
 }
-.custo{
+
+/* Estilo para o custo */
+.custo {
     position: relative;
-    top:-3px;
-    left:152px;
- }
+    top: -3px;
+    left: 152px;
+}
+
+/* Estilo para a palavra "criatura" */
+.tipo {
+    position: relative;
+    top: 150px; /* Ajuste para posicionar verticalmente */
+    left: 22px; /* Ajuste para posicionar horizontalmente */
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Estilo para o poder */
+.poder {
+    position: relative;
+    top: 180px; /* Ajuste conforme necessário */
+    left: 22px;
+    font-size: 16px;
+    color: white;
+}
